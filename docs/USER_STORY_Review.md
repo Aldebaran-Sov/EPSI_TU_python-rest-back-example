@@ -1,7 +1,7 @@
 # User Stories pour un service de critiques de jeux vidéo
 
 ## 1. Ajouter une critique pour un jeu vidéo
-**En tant qu'** utilisateur,  
+**En tant qu'utilisateur,** 
 **je veux** pouvoir rédiger et publier une critique pour un jeu vidéo,  
 **afin de** partager mon opinion avec les autres utilisateurs de l'application.
 
@@ -12,7 +12,7 @@
 ---
 
 ## 2. Consulter les critiques d’un jeu vidéo
-**En tant qu'** utilisateur de l'application,  
+**En tant qu'utilisateur** de l'application,  
 **je veux** accéder à une liste de critiques pour un jeu vidéo,  
 **afin de** me faire une idée de l'expérience des autres utilisateurs avant d’y jouer.
 
@@ -23,7 +23,7 @@
 ---
 
 ## 3. Filtrer les critiques par note
-**En tant qu'** utilisateur de l'application,  
+**En tant qu'utilisateur**  de l'application,  
 **je veux** filtrer les critiques d’un jeu vidéo selon la note attribuée,  
 **afin de** lire en priorité les critiques positives ou négatives.
 
@@ -33,7 +33,7 @@
 ---
 
 ## 4. Évaluer une critique
-**En tant qu'** utilisateur,  
+**En tant qu'utilisateur,**   
 **je veux** pouvoir marquer une critique comme "utile" ou "inutile",  
 **afin de** mettre en avant les avis pertinents pour la communauté.
 
@@ -44,7 +44,7 @@
 ---
 
 ## 5. Modifier ou supprimer ma critique
-**En tant qu'** auteur d'une critique,  
+**En tant qu'auteur** d'une critique,  
 **je veux** pouvoir modifier ou supprimer ma critique,  
 **afin de** corriger ou retirer mon avis si nécessaire.
 
@@ -55,7 +55,7 @@
 ---
 
 ## 6. Voir une moyenne des notes pour un jeu vidéo
-**En tant qu'** utilisateur de l'application,  
+**En tant qu'utilisateur** de l'application,  
 **je veux** voir une note moyenne pour un jeu vidéo,  
 **afin de** avoir un aperçu général de l’opinion des autres utilisateurs.
 
@@ -66,7 +66,7 @@
 ---
 
 ## 7. Ajouter un commentaire à une critique
-**En tant qu'** utilisateur de l'application,  
+**En tant qu'utilisateur** de l'application,  
 **je veux** commenter une critique existante,  
 **afin de** réagir ou demander plus de précisions à son auteur.
 
