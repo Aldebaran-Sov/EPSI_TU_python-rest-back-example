@@ -1,6 +1,7 @@
 from flask import Flask
 from models.database import db
 from routes.user_routes import user_routes
+from routes.videogame_routes import videogame_routes
 from routes.review_routes import review_routes  # Import review_routes
 
 def create_app():
@@ -14,6 +15,7 @@ def create_app():
 
     # Register blueprints
     app.register_blueprint(user_routes, url_prefix="/api")
+    app.register_blueprint(videogame_routes, url_prefix="/api")
     app.register_blueprint(review_routes, url_prefix="/api") 
 
     return app
