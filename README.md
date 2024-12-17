@@ -18,7 +18,7 @@ Follow these steps to set up and run the application:
 ### 1. Set Up the Virtual Environment
 
 ```bash
-python -m venv venv
+python -m venv .venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
 ```
 
