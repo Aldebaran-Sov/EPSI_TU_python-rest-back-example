@@ -3,8 +3,9 @@
 ## 1. Récupérer l'access token
 **En tant qu'utilisateur,**  
 **je veux** pouvoir récupérer un access token,  
-**Afin de** pouvoir faire des requêtes à l'API.
+**Afin de** pouvoir faire des requêtes à l'API Oauth2 de IGBD.
 
 **Critères d'acceptation :**  
-- Le système doit retourner un code 200.
-- La réponse retourne un access token au format json.
+- Retourne un code 200.
+- La réponse au format json.
+- L'access token au format string.
