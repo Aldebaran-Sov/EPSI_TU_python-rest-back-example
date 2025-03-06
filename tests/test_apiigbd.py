@@ -21,3 +21,9 @@ class ApiigbdTestCase(unittest.TestCase):
         self.assertIsInstance(data["genres"], list)
         self.assertEqual(data["genres"], genres)
 
+    def test_get_genres_label(self):
+        labels = ['Role-playing (RPG)', 'Strategy', 'Turn-based strategy (TBS)', 'Tactical', 'Adventure']
+        genres = [16, 24, 31, 15, 12]
+        data = api.get_genres_label(genres)
+        self.assertIsInstance(data, list)
+        self.assertEqual(data, labels)

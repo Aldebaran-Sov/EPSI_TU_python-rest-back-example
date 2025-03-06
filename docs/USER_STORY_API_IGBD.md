@@ -32,3 +32,13 @@
 - Il y a bien la clès genres.
 - Genres est une liste.
 - La liste de genre dans la réponse est bien celui demandé.
+
+## 3 Récupérer les nom des genres d'un jeux
+**En tant qu'utilisateur,**  
+**je veux** pouvoir récupérer les nom des genres d'un jeux,  
+**Afin de** pouvoir l'ajouter à la base de données.
+
+**Critères d'acceptation :**
+- Retourne un code 200.
+- La réponse au format list.
+- Une liste avec le même nombre de nom que d'id de genres envoyé.
