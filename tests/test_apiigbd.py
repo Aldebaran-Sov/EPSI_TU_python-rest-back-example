@@ -13,8 +13,7 @@ class ApiigbdTestCase(unittest.TestCase):
         self.assertEqual(type(token), str)
     
     def test_get_videogame(self):    
-        response = api.get_videogame("name")
-        self.assertEqual(response.status_code, 200)
-        self.assertEqual(response.headers['Content-Type'], 'application/json')
-        self.assertEqual(response.json(), {"name": "name"})
+        name = "Baldur's Gate 3"
+        data = api.get_videogame(name)
+        self.assertEqual(data["name"], name)
 
