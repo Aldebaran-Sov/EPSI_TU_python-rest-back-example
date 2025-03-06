@@ -42,6 +42,13 @@ def get_videogame(name : str):
     response.raise_for_status()
     return response.json()[0]
 
-
+def get_genres_label(genre_ids):
+    headers = get_headers()
+    url = f"{base_url}/genres"
+    ids = ','.join(map(str, genre_ids))
+    payload = f"fields name; where id = ({ids});"
+    response = requests.post(url, headers=headers, data=payload)
+    response.raise_for_status()
+    return [genre.get("name") for genre in response.json()]
 
 
