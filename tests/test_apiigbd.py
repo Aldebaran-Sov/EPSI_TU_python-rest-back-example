@@ -14,6 +14,10 @@ class ApiigbdTestCase(unittest.TestCase):
     
     def test_get_videogame(self):    
         name = "Baldur's Gate 3"
+        genres = [12, 15,16, 24, 31]
         data = api.get_videogame(name)
         self.assertEqual(data["name"], name)
+        self.assertIn("genres", data)
+        self.assertIsInstance(data["genres"], list)
+        self.assertEqual(data["genres"], genres)
 
