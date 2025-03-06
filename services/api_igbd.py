@@ -37,7 +37,7 @@ def get_headers():
 def get_videogame(name : str):
     headers = get_headers()
     url = f"{base_url}/games"
-    payload = f"fields name, genres, first_release_date; search \"{name}\"; where version_parent = null;"
+    payload = f"fields name, genres; search \"{name}\"; where version_parent = null;"
     response = requests.post(url, headers=headers, data=payload)
     response.raise_for_status()
     return response.json()[0]
